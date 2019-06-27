@@ -1,4 +1,11 @@
 ## Centroid Banding 0.0.1
+Centroid Banding is an R package that allows the creation of centroid bands from three-dimensional models. Given that this feature has aplicability outside of OsteoSort, this package was created to allow others to test the code for different purposes. Going with this, it is licnesed under MIT to provide more flexibility in its use and adoption.
 
 ## Installation
-* Nothing yet
+```R
+install.packages("devtools")
+library(devtools)
+install_github("jjlynch2/CentroidBanding", ref="v0.0.1")
+library(CentroidBanding)
+CentroidBand()
+```
