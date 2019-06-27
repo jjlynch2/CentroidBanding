@@ -37,7 +37,6 @@ CentroidBand <- function(data = NULL, pc = TRUE, threshold = 4) {
 
 		#row binds into a single matrix
 		pointcloud_list[[i]] <- rbind(band_1, band_2, band_3)
-			
 	}
 	return(pointcloud_list)
 }
