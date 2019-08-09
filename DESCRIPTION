@@ -1,6 +1,6 @@
 Package: CentroidBanding
 Title: Centroid Banding from three-dimensional models
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Jeff", "Lynch", email = "jjlynch@osteocoder.com", role = c("aut","cre"))
 Description: This package allows the extraction of centroid bands from three-dimensional models http://osteocoder.com/CentroidBanding.html
 Depends:
