@@ -36,7 +36,7 @@ CentroidBand <- function(data = NULL, pc = TRUE, threshold = 4) {
 		band_3 <- t3[t3[,3] >= centroid[3]-threshold, ]
 
 		#row binds into a single matrix
-		pointcloud_list[[i]] <- rbind(band_1, band_2, band_3)
+		pointcloud_list[[i]] <- unique(rbind(band_1, band_2, band_3))
 	}
 	return(pointcloud_list)
 }
